@@ -1,0 +1,11 @@
+# JupyterLite:
+jupyterlab
+jupyterlite
+# Xeus Python kernel:
+jupyterlite-xeus-python
+xeus-python
+empack
+# Remote collaboration using WebRTC:
+jupyterlab-webrtc-docprovider
+# For translating tutorial .md notebooks to .ipynb
+jupytext
