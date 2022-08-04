@@ -28,6 +28,11 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    - name: Environment information
+      run: |
+        pip freeze
+        mamba list
+
     - name: Download qutip-tutorials
       run: |
         wget -O qutip-tutorials-main.zip https://github.com/qutip/qutip-tutorials/archive/main.zip
