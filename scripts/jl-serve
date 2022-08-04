@@ -1,0 +1,6 @@
+#!/bin/bash
+
+jupyter lite serve \
+    --lite-dir lite \
+    --output-dir _output \
+    "$@"

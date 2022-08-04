@@ -1,0 +1,7 @@
+#!/bin/bash
+
+jupyter lite build \
+    --XeusPythonEnv.packages=numpy,scipy,matplotlib \
+    --lite-dir lite \
+    --output-dir _output \
+    "$@"
