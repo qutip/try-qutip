@@ -4,7 +4,7 @@ jupyterlite
 # Xeus Python kernel:
 jupyterlite-xeus-python
 xeus-python
-empack
+empack==0.8.2
 # Remote collaboration using WebRTC:
 jupyterlab-webrtc-docprovider
 # For translating tutorial .md notebooks to .ipynb
