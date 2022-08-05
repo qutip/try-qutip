@@ -28,11 +28,13 @@ jobs:
 
     - name: Environment information
       run: |
+        source venv/bin/activate
         pip freeze
         mamba list
 
     - name: Download qutip-tutorials
       run: |
+        source venv/bin/activate
         wget -O qutip-tutorials-main.zip https://github.com/qutip/qutip-tutorials/archive/main.zip
         mkdir lite/files/tutorials
         TUTDIR=$(pwd)/lite/files/tutorials
@@ -46,6 +48,7 @@ jobs:
 
     - name: Build QuTiP jupyterlite
       run: |
+        source venv/bin/activate
         ./scripts/jl-build-qutip
         touch _output/.nojekyll
 
