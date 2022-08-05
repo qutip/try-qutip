@@ -21,6 +21,8 @@ jobs:
 
     - name: Install jupyterlite and requirements
       run: |
+        virtualenv venv
+        source venv/bin/activate
         pip install -r requirements.txt
 
     - name: Environment information
