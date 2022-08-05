@@ -9,7 +9,7 @@ defaults:
 
 jobs:
   build_qutip_jupyterlite:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v3
     - name: Setup Mambaforge
@@ -17,12 +17,14 @@ jobs:
       with:
         miniforge-variant: Mambaforge
         miniforge-version: latest
+        channels: conda-forge
+        python-version: "3.10"
         use-mamba: true
 
     - name: Install jupyterlite and requirements
       run: |
         pip install virtualenv
-        virtualenv --python python3.10 venv
+        virtualenv venv
         source venv/bin/activate
         pip install -r requirements.txt
         mamba install empack==0.8.2
@@ -30,7 +32,9 @@ jobs:
     - name: Environment information
       run: |
         source venv/bin/activate
+        python -V
         pip freeze
+        mamba info
         mamba list
 
     - name: Download qutip-tutorials
