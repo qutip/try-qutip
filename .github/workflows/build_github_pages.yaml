@@ -40,10 +40,11 @@ jobs:
         TUTDIR=$(pwd)/lite/files/tutorials
         unzip qutip-tutorials-main.zip
         cd qutip-tutorials-main/tutorials-v4
+        rm template.md
         find . -name '*.md' -exec jupytext --to notebook {} +
-        find . -name '*.ipynb' -exec cp -t ${TUTDIR} --parents {} +
+        find . -name '*.md' -delete
+        cp -t ${TUTDIR} .
         cd -
-        rm ${TUTDIR}/template.ipynb
         rm -rf qutip-tutorials-main.zip qutip-tutorials-main
 
     - name: Build QuTiP jupyterlite
