@@ -43,7 +43,7 @@ jobs:
         rm template.md
         find . -name '*.md' -exec jupytext --to notebook {} +
         find . -name '*.md' -delete
-        cp -t ${TUTDIR} .
+        cp -r -t ${TUTDIR} .
         cd -
         rm -rf qutip-tutorials-main.zip qutip-tutorials-main
 
