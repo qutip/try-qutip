@@ -24,7 +24,6 @@ jobs:
 
     - name: Install jupyterlite and requirements
       run: |
-        mamba install empack==0.8.2
         pip install -r requirements.txt
 
     - name: Environment information
