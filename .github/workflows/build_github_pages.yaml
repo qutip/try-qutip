@@ -3,7 +3,7 @@ name: GitHub Pages Build
 on:
   push:
   pull_request:
-  workflow_dispath:
+  workflow_dispatch:
 
 defaults:
   run:
