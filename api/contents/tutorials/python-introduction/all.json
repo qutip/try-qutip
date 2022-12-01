@@ -1,0 +1,73 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.055314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "003_Matplotlib_Plotting.ipynb",
+      "path": "tutorials/python-introduction/003_Matplotlib_Plotting.ipynb",
+      "size": 15163,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.055314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "001_Beginning_Python.ipynb",
+      "path": "tutorials/python-introduction/001_Beginning_Python.ipynb",
+      "size": 41842,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.059314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:58.059314Z",
+      "mimetype": null,
+      "name": "images",
+      "path": "tutorials/python-introduction/images",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.055314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "004_link_to_lecture_0.ipynb",
+      "path": "tutorials/python-introduction/004_link_to_lecture_0.ipynb",
+      "size": 27022,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.055314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "002_NumPy_Array_Basics.ipynb",
+      "path": "tutorials/python-introduction/002_NumPy_Array_Basics.ipynb",
+      "size": 19413,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2022-12-01T15:54:58.055314Z",
+  "format": "json",
+  "last_modified": "2022-12-01T15:54:58.055314Z",
+  "mimetype": null,
+  "name": "python-introduction",
+  "path": "tutorials/python-introduction",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

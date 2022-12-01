@@ -1,0 +1,97 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.051314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-customize-device.ipynb",
+      "path": "tutorials/pulse-level-circuit-simulation/qip-customize-device.ipynb",
+      "size": 30525,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.051314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-optpulseprocessor.ipynb",
+      "path": "tutorials/pulse-level-circuit-simulation/qip-optpulseprocessor.ipynb",
+      "size": 10307,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.051314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-relaxation-measurement-with-the-idling-gate.ipynb",
+      "path": "tutorials/pulse-level-circuit-simulation/qip-relaxation-measurement-with-the-idling-gate.ipynb",
+      "size": 4669,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.051314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-processor-DJ-algorithm.ipynb",
+      "path": "tutorials/pulse-level-circuit-simulation/qip-processor-DJ-algorithm.ipynb",
+      "size": 13346,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.051314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-randomized-benchmarking.ipynb",
+      "path": "tutorials/pulse-level-circuit-simulation/qip-randomized-benchmarking.ipynb",
+      "size": 18277,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.051314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-scheduler.ipynb",
+      "path": "tutorials/pulse-level-circuit-simulation/qip-scheduler.ipynb",
+      "size": 9197,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.051314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-10-qubit-QFT-algorithm.ipynb",
+      "path": "tutorials/pulse-level-circuit-simulation/qip-10-qubit-QFT-algorithm.ipynb",
+      "size": 3830,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2022-12-01T15:54:58.051314Z",
+  "format": "json",
+  "last_modified": "2022-12-01T15:54:58.051314Z",
+  "mimetype": null,
+  "name": "pulse-level-circuit-simulation",
+  "path": "tutorials/pulse-level-circuit-simulation",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

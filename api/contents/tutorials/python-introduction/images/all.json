@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.059314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": "image/png",
+      "name": "qobj.png",
+      "path": "tutorials/python-introduction/images/qobj.png",
+      "size": 76092,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.059314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": "image/png",
+      "name": "mpl.png",
+      "path": "tutorials/python-introduction/images/mpl.png",
+      "size": 251013,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-12-01T15:54:58.059314Z",
+  "format": "json",
+  "last_modified": "2022-12-01T15:54:58.059314Z",
+  "mimetype": null,
+  "name": "images",
+  "path": "tutorials/python-introduction/images",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

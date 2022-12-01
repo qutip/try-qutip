@@ -1,0 +1,49 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.075314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": "image/png",
+      "name": "cavity-1.png",
+      "path": "tutorials/time-evolution/images/cavity-1.png",
+      "size": 66160,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.075314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": "image/png",
+      "name": "measure_type-1.png",
+      "path": "tutorials/time-evolution/images/measure_type-1.png",
+      "size": 57642,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.075314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": "image/png",
+      "name": "optomechanical_setup.png",
+      "path": "tutorials/time-evolution/images/optomechanical_setup.png",
+      "size": 87946,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-12-01T15:54:58.075314Z",
+  "format": "json",
+  "last_modified": "2022-12-01T15:54:58.075314Z",
+  "mimetype": null,
+  "name": "images",
+  "path": "tutorials/time-evolution/images",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

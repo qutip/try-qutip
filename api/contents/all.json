@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.039314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:53:19.067000Z",
+      "mimetype": null,
+      "name": "README",
+      "path": "README",
+      "size": 93,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.075314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:58.075314Z",
+      "mimetype": null,
+      "name": "tutorials",
+      "path": "tutorials",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    }
+  ],
+  "created": "2022-12-01T15:54:58.039314Z",
+  "format": "json",
+  "last_modified": "2022-12-01T15:54:58.039314Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

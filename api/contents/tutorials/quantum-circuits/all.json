@@ -1,0 +1,73 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.063314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qip-toffoli-cnot.ipynb",
+      "path": "tutorials/quantum-circuits/qip-toffoli-cnot.ipynb",
+      "size": 3333,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.059314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:58.059314Z",
+      "mimetype": null,
+      "name": "qasm_files",
+      "path": "tutorials/quantum-circuits/qasm_files",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.063314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "teleportation.ipynb",
+      "path": "tutorials/quantum-circuits/teleportation.ipynb",
+      "size": 9092,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.063314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "quantum-gates.ipynb",
+      "path": "tutorials/quantum-circuits/quantum-gates.ipynb",
+      "size": 23262,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-12-01T15:54:58.059314Z",
+      "format": null,
+      "last_modified": "2022-12-01T15:54:54.267305Z",
+      "mimetype": null,
+      "name": "qasm.ipynb",
+      "path": "tutorials/quantum-circuits/qasm.ipynb",
+      "size": 9962,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2022-12-01T15:54:58.063314Z",
+  "format": "json",
+  "last_modified": "2022-12-01T15:54:58.063314Z",
+  "mimetype": null,
+  "name": "quantum-circuits",
+  "path": "tutorials/quantum-circuits",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
