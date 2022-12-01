@@ -64,7 +64,7 @@ jobs:
   publish_to_ghpages:
     needs: build_qutip_jupyterlite
     runs-on: ubuntu-latest
-    if: ${{ github.repository == 'hodgestar/try-qutip' && github.ref == 'refs/heads/main' }}
+    if: ${{ github.repository == 'qutip/try-qutip' && github.ref == 'refs/heads/main' }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/download-artifact@master
