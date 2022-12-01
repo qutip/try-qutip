@@ -1,7 +1,9 @@
 name: GitHub Pages Build
 
 on:
-  [push, pull_request]
+  push:
+  pull_request:
+  workflow_dispath:
 
 defaults:
   run:
