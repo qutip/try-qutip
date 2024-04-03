@@ -1,7 +1,7 @@
 #!/bin/bash
 
 jupyter lite build \
-    --XeusPythonEnv.packages=numpy,scipy,matplotlib \
+    --XeusAddon.environment_file=try-basic-env.yaml \
     --lite-dir lite \
     --output-dir _output \
     "$@"

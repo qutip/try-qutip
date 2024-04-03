@@ -1,0 +1,10 @@
+# WASM environment for try-qutip *without* qutip
+name: xeus-lite-wasm
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - xeus-python
+  - numpy
+  - scipy
+  - matplotlib

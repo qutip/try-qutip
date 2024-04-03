@@ -1,7 +1,7 @@
 #!/bin/bash
 
 jupyter lite build \
-    --XeusPythonEnv.packages=numpy,scipy,matplotlib,qutip \
+    --XeusAddon.environment_file=try-qutip-env.yaml \
     --lite-dir lite \
     --output-dir _output \
     "$@" 
