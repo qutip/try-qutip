@@ -1,9 +1,9 @@
 # JupyterLite:
 jupyterlab==4.1.5
 jupyter-server==2.13.0
-jupyterlite==0.2.3
+jupyterlite==0.3.0
 # Xeus Python kernel:
-jupyterlite-xeus-python==1.0.0
+jupyterlite-xeus==0.1.8
 xeus-python==0.15.12
 # Remote collaboration using WebRTC:
 jupyterlab-webrtc-docprovider==0.1.1
