@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2024-04-03T22:07:32.361337Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-04-03T22:07:30.457323Z",
+      "mimetype": null,
+      "name": "single-photon-interference.ipynb",
+      "path": "tutorials/miscellaneous/single-photon-interference.ipynb",
+      "size": 43586,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2024-04-03T22:07:32.361337Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-04-03T22:07:32.361337Z",
+      "mimetype": null,
+      "name": "images",
+      "path": "tutorials/miscellaneous/images",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    }
+  ],
+  "created": "2024-04-03T22:07:32.361337Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2024-04-03T22:07:32.361337Z",
+  "mimetype": null,
+  "name": "miscellaneous",
+  "path": "tutorials/miscellaneous",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
