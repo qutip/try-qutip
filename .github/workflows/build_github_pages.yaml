@@ -13,14 +13,14 @@ jobs:
   build_qutip_jupyterlite:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Setup Mambaforge
-      uses: conda-incubator/setup-miniconda@v2
+      uses: conda-incubator/setup-miniconda@v3
       with:
         miniforge-variant: Mambaforge
         miniforge-version: latest
         channels: conda-forge
-        python-version: "3.10"
+        python-version: "3.11"
         use-mamba: true
         activate-environment: qutip-jupyterlite
 
@@ -41,7 +41,7 @@ jobs:
         mkdir lite/files/tutorials
         TUTDIR=$(pwd)/lite/files/tutorials
         unzip qutip-tutorials-main.zip
-        cd qutip-tutorials-main/tutorials-v4
+        cd qutip-tutorials-main/tutorials-v5
         rm template.md
         find . -name '*.md' -exec jupytext --to notebook {} +
         find . -name '*.md' -delete
@@ -55,7 +55,7 @@ jobs:
         touch _output/.nojekyll
 
     - name: Store QuTiP jupyterlite artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: qutip-jupyterlite
         path: |
@@ -66,8 +66,8 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.repository == 'qutip/try-qutip' && github.ref == 'refs/heads/main' }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/download-artifact@master
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
         with:
           name: qutip-jupyterlite
           path: publish/
