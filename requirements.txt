@@ -1,11 +1,11 @@
 # JupyterLite:
-jupyterlab==3.4.4
-jupyter-server==1.18.1
-jupyterlite==0.1.0b11
+jupyterlab==4.1.5
+jupyter-server==2.13.0
+jupyterlite==0.3.0
 # Xeus Python kernel:
-jupyterlite-xeus-python==0.5.3
-xeus-python==0.14.1
+jupyterlite-xeus-python==1.0.0
+xeus-python==0.15.12
 # Remote collaboration using WebRTC:
 jupyterlab-webrtc-docprovider==0.1.1
 # For translating tutorial .md notebooks to .ipynb
-jupytext==1.14.1
+jupytext==1.16.1
