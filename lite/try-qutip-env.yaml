@@ -13,4 +13,3 @@ dependencies:
   - pip:
       - qutip-qip
       - qutip-qtrl
-      - qutip-qoc
