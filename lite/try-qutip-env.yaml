@@ -9,3 +9,6 @@ dependencies:
   - scipy
   - matplotlib
   - qutip
+  - qutip-qip
+  - qutip-qtrl
+  - qutip-qoc
