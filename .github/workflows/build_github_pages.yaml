@@ -13,53 +13,54 @@ jobs:
   build_qutip_jupyterlite:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup Mambaforge
-      uses: conda-incubator/setup-miniconda@v3
-      with:
-        miniforge-variant: Mambaforge
-        miniforge-version: latest
-        channels: conda-forge
-        python-version: "3.11"
-        use-mamba: true
-        activate-environment: qutip-jupyterlite
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Install jupyterlite and requirements
-      run: |
-        pip install -r requirements.txt
+      - name: Setup Mambaforge
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          channels: conda-forge
+          python-version: "3.12"
+          use-mamba: true
+          activate-environment: qutip-jupyterlite
 
-    - name: Environment information
-      run: |
-        python -V
-        pip freeze
-        mamba info
-        mamba list
+      - name: Install jupyterlite and requirements
+        run: |
+          pip install -r requirements.txt
 
-    - name: Download qutip-tutorials
-      run: |
-        wget -O qutip-tutorials-main.zip https://github.com/qutip/qutip-tutorials/archive/main.zip
-        mkdir lite/files/tutorials
-        TUTDIR=$(pwd)/lite/files/tutorials
-        unzip qutip-tutorials-main.zip
-        cd qutip-tutorials-main/tutorials-v5
-        rm template.md
-        find . -name '*.md' -exec jupytext --to notebook {} +
-        find . -name '*.md' -delete
-        cp -r -t ${TUTDIR} .
-        cd -
-        rm -rf qutip-tutorials-main.zip qutip-tutorials-main
+      - name: Environment information
+        run: |
+          python -V
+          pip freeze
+          conda info
+          conda list
 
-    - name: Build QuTiP jupyterlite
-      run: |
-        ./scripts/jl-build-qutip
-        touch _output/.nojekyll
+      - name: Download qutip-tutorials
+        run: |
+          wget -O qutip-tutorials-main.zip https://github.com/qutip/qutip-tutorials/archive/main.zip
+          mkdir lite/files/tutorials
+          TUTDIR=$(pwd)/lite/files/tutorials
+          unzip qutip-tutorials-main.zip
+          cd qutip-tutorials-main/tutorials-v5
+          rm template.md
+          find . -name '*.md' -exec jupytext --to notebook {} +
+          find . -name '*.md' -delete
+          cp -r -t ${TUTDIR} .
+          cd -
+          rm -rf qutip-tutorials-main.zip qutip-tutorials-main
 
-    - name: Store QuTiP jupyterlite artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: qutip-jupyterlite
-        path: |
-          _output
+      - name: Build QuTiP jupyterlite
+        run: |
+          ./scripts/jl-build-qutip
+          touch _output/.nojekyll
+
+      - name: Store QuTiP jupyterlite artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: qutip-jupyterlite
+          path: |
+            _output
 
   publish_to_ghpages:
     needs: build_qutip_jupyterlite
