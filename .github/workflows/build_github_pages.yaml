@@ -27,7 +27,7 @@ jobs:
 
       - name: Install jupyterlite and requirements
         run: |
-          pip install -r requirements.txt
+          conda install --file requirements.txt
 
       - name: Environment information
         run: |

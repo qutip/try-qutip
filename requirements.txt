@@ -1,7 +1,7 @@
 # JupyterLite:
 jupyterlab==4.3.6
-jupyter-server==2.15.0
-jupyterlite==0.5.0
+jupyter_server==2.15.0  # jupyter-server is named with an underscore in condaforge
+jupyterlite-core==0.5.1
 # Xeus Python kernel:
 jupyterlite-xeus==3.1.1
 xeus-python==0.17.2
