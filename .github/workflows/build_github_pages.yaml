@@ -21,7 +21,7 @@ jobs:
         with:
           miniforge-version: latest
           channels: conda-forge
-          python-version: "3.12"
+          python-version: "3.11"
           use-mamba: true
           activate-environment: qutip-jupyterlite
 
