@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-03-29T13:44:45.257311Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-03-29T13:44:45.257311Z",
+      "mimetype": null,
+      "name": "tutorials",
+      "path": "tutorials",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-03-29T13:44:45.229311Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-03-29T13:43:41.711610Z",
+      "mimetype": "text/markdown",
+      "name": "README.md",
+      "path": "README.md",
+      "size": 118,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-03-29T13:44:45.229311Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-03-29T13:44:45.229311Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
