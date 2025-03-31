@@ -9,3 +9,5 @@ xeus-python==0.17.2
 jupyterlab-webrtc-docprovider==0.1.1
 # For translating tutorial .md notebooks to .ipynb
 jupytext==1.16.7
+# Latest empack required to build numpy with numpy.testing
+empack>=5.0.7
