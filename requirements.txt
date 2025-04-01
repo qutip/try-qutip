@@ -3,7 +3,7 @@ jupyterlab==4.3.6
 jupyter_server==2.15.0  # jupyter-server is named with an underscore in condaforge
 jupyterlite-core==0.5.1
 # Xeus Python kernel:
-jupyterlite-xeus==3.1.1
+jupyterlite-xeus>=3.1.6  # required to avoid name collision in qhull.so between scipy and matplotlib
 xeus-python==0.17.2
 # Remote collaboration using WebRTC:
 jupyterlab-webrtc-docprovider==0.1.1
