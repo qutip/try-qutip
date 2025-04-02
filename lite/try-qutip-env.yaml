@@ -14,3 +14,4 @@ dependencies:
   - pip:
       - qutip-qip
       - qutip-qtrl
+      - ipywidgets
