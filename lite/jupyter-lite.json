@@ -1,9 +1,11 @@
 {
   "jupyter-config-data": {
+    "appName": "Try QuTiP",
+    "defaultKernelName": "xpython",
     "collaborative": true,
     "disabledExtensions": [
-        "@jupyterlite/javascript-kernel-extension",
-        "@jupyterlite/pyolite-kernel-extension"
+      "@jupyterlite/javascript-kernel-extension",
+      "@jupyterlite/pyolite-kernel-extension"
     ]
   }
 }
