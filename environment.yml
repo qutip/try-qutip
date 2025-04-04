@@ -1,6 +1,7 @@
 name: qutip-jupyterlite
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   # JupyterLite:
   - jupyterlab==4.3.6
