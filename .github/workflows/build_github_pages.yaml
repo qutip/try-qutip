@@ -38,16 +38,24 @@ jobs:
 
       - name: Download qutip-tutorials
         run: |
-          wget -O qutip-tutorials-main.zip https://github.com/qutip/qutip-tutorials/archive/main.zip
           mkdir lite/files/tutorials
           TUTDIR=$(pwd)/lite/files/tutorials
+          README=$(pwd)/lite/files/README.md
+
+          wget -O qutip-tutorials-main.zip https://github.com/qutip/qutip-tutorials/archive/main.zip
           unzip qutip-tutorials-main.zip
+
+          cd qutip-tutorials-main/website
+          python create_index.py v5 try-qutip ${README}
+          cd -
+
           cd qutip-tutorials-main/tutorials-v5
           rm template.md
           find . -name '*.md' -exec jupytext --to notebook {} +
           find . -name '*.md' -delete
           cp -r -t ${TUTDIR} .
           cd -
+
           rm -rf qutip-tutorials-main.zip qutip-tutorials-main
 
       - name: Build QuTiP jupyterlite
