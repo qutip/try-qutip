@@ -1,0 +1,22 @@
+name: qutip-jupyterlite
+channels:
+  - conda-forge
+dependencies:
+  # JupyterLite:
+  - jupyterlab==4.3.6
+  - jupyter_server==2.15.0 # jupyter-server is named with an underscore in condaforge
+  - jupyterlite-core==0.5.1
+  # Latest empack required to build numpy with numpy.testing
+  - empack>=5.0.9
+  # Xeus Python kernel:
+  - jupyterlite-xeus>=3.1.6
+  - xeus-python==0.17.2
+  # Remote collaboration using WebRTC:
+  - jupyterlab-webrtc-docprovider==0.1.1
+  # For translating tutorial .md notebooks to .ipynb
+  - jupytext==1.16.7
+  # pip
+  - pip
+  - pip:
+      # Open notebooks via ?fromURL=...
+      - jupyterlab-open-url-parameter==0.3.0

@@ -24,10 +24,7 @@ jobs:
           python-version: "3.11"
           use-mamba: true
           activate-environment: qutip-jupyterlite
-
-      - name: Install jupyterlite and requirements
-        run: |
-          conda install --file requirements.txt
+          environment-file: environment.yml
 
       - name: Environment information
         run: |
