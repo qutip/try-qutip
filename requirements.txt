@@ -5,6 +5,8 @@ jupyterlite-core==0.5.1
 # Xeus Python kernel:
 jupyterlite-xeus>=3.1.6  # required to avoid name collision in qhull.so between scipy and matplotlib
 xeus-python==0.17.2
+# Open notebooks via ?fromURL=...
+jupyterlab-open-url-parameter==0.3.0
 # Remote collaboration using WebRTC:
 jupyterlab-webrtc-docprovider==0.1.1
 # For translating tutorial .md notebooks to .ipynb
