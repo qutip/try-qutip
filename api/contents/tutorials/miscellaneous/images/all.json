@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-05T11:22:46.890486Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-05T11:22:44.484461Z",
+      "mimetype": "image/jpeg",
+      "name": "single-photon-interference-setup.jpg",
+      "path": "tutorials/miscellaneous/images/single-photon-interference-setup.jpg",
+      "size": 140373,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-05T11:22:46.890486Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-05T11:22:46.890486Z",
+  "mimetype": null,
+  "name": "images",
+  "path": "tutorials/miscellaneous/images",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
