@@ -18,5 +18,10 @@
         "rank": 50
       }
     ]
+  },
+  "@jupyterlab/docmanager-extension:plugin": {
+    "defaultViewers": {
+      "markdown": "Markdown Preview"
+    }
   }
 }
