@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.750081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:31.750081Z",
+      "mimetype": null,
+      "name": "images",
+      "path": "tutorials/miscellaneous/images",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.750081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.272105Z",
+      "mimetype": null,
+      "name": "JAX_backend.ipynb",
+      "path": "tutorials/miscellaneous/JAX_backend.ipynb",
+      "size": 5937,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.750081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.272105Z",
+      "mimetype": null,
+      "name": "excitation-number-restricted-states-jc-chain.ipynb",
+      "path": "tutorials/miscellaneous/excitation-number-restricted-states-jc-chain.ipynb",
+      "size": 13468,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.751081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.272105Z",
+      "mimetype": null,
+      "name": "single-photon-interference.ipynb",
+      "path": "tutorials/miscellaneous/single-photon-interference.ipynb",
+      "size": 43586,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-07T21:24:31.751081Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-07T21:24:31.751081Z",
+  "mimetype": null,
+  "name": "miscellaneous",
+  "path": "tutorials/miscellaneous",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

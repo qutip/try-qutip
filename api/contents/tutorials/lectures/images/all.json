@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.749081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.271105Z",
+      "mimetype": "image/png",
+      "name": "exdecay.png",
+      "path": "tutorials/lectures/images/exdecay.png",
+      "size": 21226,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.749081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.271105Z",
+      "mimetype": "image/png",
+      "name": "qobj.png",
+      "path": "tutorials/lectures/images/qobj.png",
+      "size": 76092,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.749081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.271105Z",
+      "mimetype": "image/png",
+      "name": "schematic-lasing-model.png",
+      "path": "tutorials/lectures/images/schematic-lasing-model.png",
+      "size": 23024,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-07T21:24:31.749081Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-07T21:24:31.749081Z",
+  "mimetype": null,
+  "name": "images",
+  "path": "tutorials/lectures/images",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.755080Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.273105Z",
+      "mimetype": "image/png",
+      "name": "mpl.png",
+      "path": "tutorials/python-introduction/images/mpl.png",
+      "size": 251013,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.756081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.273105Z",
+      "mimetype": "image/png",
+      "name": "qobj.png",
+      "path": "tutorials/python-introduction/images/qobj.png",
+      "size": 76092,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-07T21:24:31.756081Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-07T21:24:31.756081Z",
+  "mimetype": null,
+  "name": "images",
+  "path": "tutorials/python-introduction/images",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

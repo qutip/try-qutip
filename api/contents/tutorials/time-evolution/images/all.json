@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.765080Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.274105Z",
+      "mimetype": "image/png",
+      "name": "optomechanical_setup.png",
+      "path": "tutorials/time-evolution/images/optomechanical_setup.png",
+      "size": 87946,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.765080Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.274105Z",
+      "mimetype": "image/png",
+      "name": "measure_type-1.png",
+      "path": "tutorials/time-evolution/images/measure_type-1.png",
+      "size": 57642,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.765080Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.274105Z",
+      "mimetype": "image/png",
+      "name": "cavity-1.png",
+      "path": "tutorials/time-evolution/images/cavity-1.png",
+      "size": 66160,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-07T21:24:31.765080Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-07T21:24:31.765080Z",
+  "mimetype": null,
+  "name": "images",
+  "path": "tutorials/time-evolution/images",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

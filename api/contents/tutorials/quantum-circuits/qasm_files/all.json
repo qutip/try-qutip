@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.757081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.273105Z",
+      "mimetype": null,
+      "name": "swap_custom.qasm",
+      "path": "tutorials/quantum-circuits/qasm_files/swap_custom.qasm",
+      "size": 178,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.757081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.273105Z",
+      "mimetype": null,
+      "name": "swap.qasm",
+      "path": "tutorials/quantum-circuits/qasm_files/swap.qasm",
+      "size": 136,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-07T21:24:31.757081Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-07T21:24:29.273105Z",
+      "mimetype": null,
+      "name": "teleportation.qasm",
+      "path": "tutorials/quantum-circuits/qasm_files/teleportation.qasm",
+      "size": 199,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-07T21:24:31.757081Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-07T21:24:31.757081Z",
+  "mimetype": null,
+  "name": "qasm_files",
+  "path": "tutorials/quantum-circuits/qasm_files",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
