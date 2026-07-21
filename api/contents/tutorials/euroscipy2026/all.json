@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-07-21T20:46:12.080705Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-07-21T20:46:08.420643Z",
+      "mimetype": null,
+      "name": "02_Teleportation.ipynb",
+      "path": "tutorials/euroscipy2026/02_Teleportation.ipynb",
+      "size": 7137,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-07-21T20:46:12.080705Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-07-21T20:46:08.420643Z",
+      "mimetype": null,
+      "name": "01_Qubits.ipynb",
+      "path": "tutorials/euroscipy2026/01_Qubits.ipynb",
+      "size": 5698,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2026-07-21T20:46:12.080705Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-07-21T20:46:12.080705Z",
+  "mimetype": null,
+  "name": "euroscipy2026",
+  "path": "tutorials/euroscipy2026",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
